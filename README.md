@@ -1,21 +1,16 @@
-# Duelo das Sinapses — estilo Atari (com rosto embutido)
+# Duelo das Sinapses — estilo Atari (face por arquivo)
 
-Joguinho retrô em HTML5/Canvas com dois heróis jogáveis:
+Este repositório carrega o rosto do **Faleiro** a partir do arquivo **assets/faleiro-face.png** (incluído).
 
-- 🧠 **Prof. Faleiro Neuro** — dispara cérebros energizados (com rosto embutido via base64)
-- 💉 **Dr. Xadão Pediatrão** — dispara injeções supersônicas
+## Como publicar no GitHub Pages
+1. Crie o repositório e envie todos os arquivos.
+2. Em **Settings → Pages**: *Deploy from a branch*, branch `main`, pasta `/ (root)`.
+3. Acesse a URL exibida nas configurações.
 
-## 🎮 Como jogar
-- **Mover**: ← → (ou **A**/**D**)
-- **Atirar**: **Espaço**
-- **Pausar**: **P**
-- **Mobile**: botões de toque na tela
+## Como trocar o rosto depois
+Substitua **assets/faleiro-face.png** por outra imagem (ideal ~96×96 px, PNG).
 
-## ▶️ Rodando localmente
-Basta abrir `index.html` no navegador.
+## Controles
+- ← → (ou A/D), **Espaço** para atirar, **P** para pausar. Mobile funciona abrindo pelo navegador.
 
-## 📦 GitHub Pages
-Suba os arquivos e ative Pages a partir da branch principal (pasta raíz).
-
-## 📝 Licença
-MIT — veja `LICENSE`.
+Licença MIT.
